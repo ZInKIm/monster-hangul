@@ -45,7 +45,7 @@ export default function ParentPage() {
       <div className="grid grid-cols-3 gap-3 mb-6">
         <div className="bg-white bg-opacity-20 rounded-2xl p-4 text-center">
           <p className="text-3xl font-black text-yellow-300">{todayStats.learned}</p>
-          <p className="text-white text-xs mt-1">Today's\nLearned</p>
+          <p className="text-white text-xs mt-1">Today&apos;s Learned</p>
         </div>
         <div className="bg-white bg-opacity-20 rounded-2xl p-4 text-center">
           <p className="text-3xl font-black text-green-300">{todayStats.correct}</p>
